@@ -35,10 +35,11 @@ Material:
     - Vector1_68A27D51: 0
     - Vector1_7563C2A4: -0.439
     - Vector1_C4B0954B: 0.25
-    - _OffsetX: -0.25
-    - _OffsetY: -0.6
-    - _Rotation: -0.445
-    - _Width: 0.25
+    - _OffsetX: -0.16
+    - _OffsetY: -0.54
+    - _Rotation: -0.42
+    - _Width: 0.452
     m_Colors:
     - Colorize: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

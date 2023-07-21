@@ -176,7 +176,9 @@ namespace BoatAttack
 
         public static void LoadScene(int buildIndex, LoadSceneMode mode = LoadSceneMode.Single)
         {
-            LoadScene(SceneUtility.GetScenePathByBuildIndex(buildIndex), mode);
+            //append root path to scene path
+            string scenePath = SceneUtility.GetScenePathByBuildIndex(buildIndex);
+            LoadScene(scenePath , mode);
         }
 
         public static void LoadScene(string scenePath, LoadSceneMode mode = LoadSceneMode.Single)
@@ -301,7 +303,7 @@ namespace BoatAttack
 
         public static string GetLevelName(int level)
         {
-            return $"scenes/_levels/level_{Levels[level]}";
+            return $"assets/scenes/_levels/level_{Levels[level]}.unity";
         }
 
         public static readonly string[] AiNames =
